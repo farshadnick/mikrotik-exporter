@@ -1,0 +1,16 @@
+devices:
+  - name: my_router
+    address: 192.168.50.254
+    user: YOUR_MIKROTIK_USER
+    password: YOUR_MIKROTIK_PASSWORD
+  - name: my_second_router
+
+
+features:
+  bgp: true
+  dhcp: true
+  dns: true
+  dhcpl: true
+  routes: true
+  pools: true
+  optics: true
